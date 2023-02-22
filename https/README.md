@@ -17,10 +17,10 @@ Aqui está uma explicação do que cada linha faz:
 
 ^: Começa a regra de correspondência de URL a partir do início da string.
 
-https://%{HTTP_HOST}%{REQUEST_URI}: O URL de destino que a regra de reescrita deve redirecionar, que é o mesmo URL, mas com HTTPS no lugar de HTTP. %{HTTP_HOST} captura o nome do host do URL da solicitação e %{REQUEST_URI} captura o caminho do URL da solicitação.
+https://%{HTTP_HOST}%{REQUEST_URI}: O URL de destino que a regra de reescrita deve redirecionar, que é o mesmo URL, mas com <br> HTTPS no lugar de HTTP. %{HTTP_HOST} captura o nome do host do URL da solicitação e %{REQUEST_URI} captura o caminho <br> do URL da solicitação.
 
-[L,R=301]: Define as opções da regra de reescrita. L indica que a regra deve ser a última a ser executada, e R=301 indica que a regra deve redirecionar a solicitação com um código de status HTTP 301 (movido permanentemente).
+[L,R=301]: Define as opções da regra de reescrita. L indica que a regra deve ser a última a ser executada, e R=301 indica <br> que a regra deve redirecionar a solicitação com um código de status HTTP 301 (movido permanentemente).
 
-Em resumo, essas instruções redirecionam todas as solicitações HTTP para HTTPS para garantir que o tráfego do site seja criptografado e seguro.
+Em resumo, essas instruções redirecionam todas as solicitações HTTP para HTTPS para garantir que o tráfego do site seja<br> criptografado e seguro.
 ```
 </div>
